@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハイキングの思い出サイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .breadcrumb {
+            margin: 10px;
+            font-size: 20px;
+        }
+        .breadcrumb a {
+            text-decoration: none;
+            color: yellow;
+            margin-right: 5px;
+        }
+        .breadcrumb span {
+            margin-right: 5px;
+            color: #555;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+            max-width: 90%;
+            margin: 20px auto;
+        }
+        .container img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        a.button:hover {
+            background-color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">ホーム</a>
+        <span>&gt;</span>
+        <a href="index2.html">キリン</a>
+        <span>&gt;</span>
+        いろいろ
+    </div>
+    <h1>チーター＆コアラ</h1>
+    <div class="container">
+        <img src="img/IMG_5797.jpg" alt="チーター">
+        <img src="img/IMG_5806.jpg" alt="コアラ1">
+        <img src="img/IMG_5808.jpg" alt="コアラ2">
+    </div>
+    <a href="index.html" class="button">ホームへ</a>
+</body>
+</html>
